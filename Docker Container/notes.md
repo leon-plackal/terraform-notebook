@@ -1,12 +1,15 @@
-- Initialize the project, which downloads a plugin that allows Terraform to interact with Docker.
+Initialize the project, which downloads a plugin that allows Terraform to interact with Docker.
 
-terraform init
+`terraform init`
 
-- Provision the NGINX server container with apply
-terraform apply
+Provision the NGINX server container with apply
 
-- Run docker ps to view the NGINX container running in Docker via Terraform.
-docker ps
+`terraform apply`
 
-- stop the container and destroy the resources
-terraform destroy
+Run docker ps to view the NGINX container running in Docker via Terraform.
+
+`docker ps`
+
+Stop the container and destroy the resources
+
+`terraform destroy`
